@@ -1,4 +1,2 @@
-x = "Hello World"
-print(type(x))
-
-# str
+txt = "Hello World"
+x = txt[0]
