@@ -1,0 +1,9 @@
+def new_gen(n):
+    for i in range(n + 1):
+        if i % 3 == 0 and i % 4 == 0:
+            yield i
+
+
+n = int(input())
+for num in new_gen(n):
+    print(num)
